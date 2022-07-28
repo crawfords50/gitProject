@@ -15,6 +15,11 @@ public class Person {
 
 	private int originalPersonID;
 
+	@Override
+	public String toString() {
+		return "Person [originalPersonID=" + originalPersonID + ", aaPersonID=" + aaPersonID + "]";
+	}
+
 	private int aaPersonID;
 
 }
